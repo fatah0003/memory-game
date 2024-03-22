@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big_container{
+    width: 800px;
+    height: 900px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.imgone, .imgtwo, .imgthree, .imgfour, .imgfive, .imgsix, .imgseven, .imgeight, .imgnine, .imgten, .imgeleven, .imgtwelve, .imgthirteen, .imgfourteen, .imgfifteen, .imgsixteen {
+  background-image: url(./assets/default.png);
+  background-size: contain; 
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  background-color: brown;
+}
+
