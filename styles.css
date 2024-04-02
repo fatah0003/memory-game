@@ -1,6 +1,7 @@
 /* Définir le Body/taille/couleur/margin... */
 body {
-  height: 95vh;
+  
+  height: 100vh;
   background-color: rgb(192, 133, 107);
   display: flex;
   justify-content: center;
@@ -15,6 +16,10 @@ body {
   grid-template-rows: repeat(4,1fr);
   gap: 10px;
  
+}
+#btn{
+  margin-top: 20px;
+  
 }
 /* Défini le cadre et taille des éléments dans la classe imageElement */
 .imageElement {
