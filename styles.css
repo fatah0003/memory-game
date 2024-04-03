@@ -1,44 +1,81 @@
 /* Définir le Body/taille/couleur/margin... */
 body {
-  
+
   height: 100vh;
   background-color: rgb(192, 133, 107);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.main {
+  height: 550px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
 /*Le gros container block/GRID/ */
 .big_container {
   width: 550px;
   height: 550px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 10px;
- 
+
+
 }
-#btn{
+
+#btn {
   margin-top: 20px;
-  
+
 }
+
 /* Défini le cadre et taille des éléments dans la classe imageElement */
 .imageElement {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   height: auto;
   display: block;
   margin: auto;
   object-fit: contain;
-  background-color:  rgb(113, 170, 166);
-  transition: transform 0.5s ease; 
+  background-color: rgb(113, 170, 166);
+  transition: transform 0.5s ease;
+  border-radius: 10px;
 
 }
+
 /* controler/définir les images à trouver */
-.imageFind
-{
-  width: 100%; 
+.imageFind {
+  width: 100%;
   height: 100%;
   transform: rotateY(-360deg);
+}
+
+.options {
+  height: 550px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: hidden;
+}
+
+.score {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  border: hidden;
+  background-color: white;
+  text-align: center;
 }
